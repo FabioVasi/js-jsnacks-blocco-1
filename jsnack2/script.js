@@ -11,9 +11,15 @@ const secondWord = prompt('Type a second word here');
 console.log(firstWord, secondWord, firstWord.length, secondWord.length);
 
 if(firstWord.length > secondWord.length){
+    
     console.log('La prima parola è più lunga');
+
 } else if(firstWord.length < secondWord.length){
+
     console.log('La seconda parola è più lunga');
+
 } else{
+
     console.log('Le parole hanno la stessa lunghezza');
+    
 }
