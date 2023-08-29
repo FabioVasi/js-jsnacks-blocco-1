@@ -14,14 +14,12 @@ if(userFirstNumber > userSecondNumber) {
 
     console.log('Il primo numero è maggiore del secondo');
 
-} else {
+} else if(userSecondNumber > userFirstNumber) {
 
     console.log('Il secondo numero è maggiore del primo');
 
+} else {
+
+    console.log('I numeri sono uguali');
+
 }
-
-
-
-
-
-
