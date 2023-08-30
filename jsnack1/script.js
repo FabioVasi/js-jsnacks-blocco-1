@@ -32,29 +32,32 @@ L’utente inserisce due numeri in successione, con due prompt.
 Il software stampa il maggiore.
 */
 
-const numberOne = Number(prompt('Type a number here.'));
-
-const numberTwo = Number(prompt('Type a second number here.'));
-
-console.log('first number ', numberOne, 'second number ', numberTwo);
-
 let i = 0;
+
+const numbersList = []
 
 while (i < 2) {
 
-    if(numberOne > numberTwo) {
+    const userNumbers = Number(prompt('type a random number'));
 
-        console.log('Il primo numero è maggiore del secondo ' + numberOne);
-    
-    } else if(numberTwo > numberOne) {
-    
-        console.log('Il secondo numero è maggiore del primo ' + numberTwo);
-    
-    } else {
-    
-        console.log('I numeri sono uguali');
-    
-    }
+    console.log(userNumbers);
 
-    i++ 
+    numbersList.push(userNumbers);
+
+    i++
+
+}
+
+if(numbersList[0] > numbersList[1]) {
+
+    console.log('Il primo numero è maggiore del secondo ' + numbersList[0]);
+
+} else if(numbersList[1] > numbersList[0]) {
+
+    console.log('Il secondo numero è maggiore del primo ' + numbersList[1]);
+
+} else {
+
+    console.log('I numeri sono uguali ritenta');
+
 }
