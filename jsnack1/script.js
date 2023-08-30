@@ -44,11 +44,11 @@ while (i < 2) {
 
     if(numberOne > numberTwo) {
 
-        console.log('Il primo numero è maggiore del secondo');
+        console.log('Il primo numero è maggiore del secondo ' + numberOne);
     
     } else if(numberTwo > numberOne) {
     
-        console.log('Il secondo numero è maggiore del primo');
+        console.log('Il secondo numero è maggiore del primo ' + numberTwo);
     
     } else {
     
