@@ -37,21 +37,21 @@ const wordList = []
 
 while (i < 2) {
 
-    const userword = prompt('type a word here');
+    const userWord = prompt('type a word here');
 
-    console.log(userword);
+    console.log(userWord, userWord.length);
 
-    wordList.push(userword);
+    wordList.push(userWord.length);
 
     i++
 
 }
 
-if(wordList[1] > wordList[0]) {
+if(wordList[0] > wordList[1]) {
 
     console.log('La prima parola è più lunga');
 
-} else if(wordList[0] > wordList[1]) {
+} else if(wordList[1] > wordList[0]) {
 
     console.log('La seconda parola è più lunga');
 
