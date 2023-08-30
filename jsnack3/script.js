@@ -22,7 +22,7 @@ let totale = Number(number_1 + number_2 + number_3 + number_4 + number_5 + numbe
 console.log(totale);
 */
 
-const numbersList = [Number(prompt('Number 1, type here.')), Number(prompt('Number 2, type here.')), Number(prompt('Number 3, type here.')), Number(prompt('Number 4, type here.')), Number(prompt('Number 5, type here.')), Number(prompt('Number 6, type here.')), Number(prompt('Number 7, type here.')), Number(prompt('Number 8, type here.')), Number(prompt('Number 9, type here.')), Number(prompt('Number 10, type here.'))]
+const numbersList = [Number(prompt('Number 1, type here.')) + Number(prompt('Number 2, type here.')) + Number(prompt('Number 3, type here.')) + Number(prompt('Number 4, type here.')) + Number(prompt('Number 5, type here.')) + Number(prompt('Number 6, type here.')) + Number(prompt('Number 7, type here.')) + Number(prompt('Number 8, type here.')) + Number(prompt('Number 9, type here.')) + Number(prompt('Number 10, type here.'))]
 
 console.log(numbersList);
 
@@ -30,6 +30,6 @@ for (let i = 0; i < 10; i++) {
 
     const userNumbers = numbersList[i];
     
-    console.log(userNumbers); 
+    console.log('totale = ' + userNumbers);
 
 }
